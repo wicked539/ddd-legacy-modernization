@@ -3,6 +3,7 @@
 ### gewachsene software-systeme sind entweder big ball of mud oder technisch geschnitten
 ### oftmals keine original-entwickler _und_ keine fachexperten mehr da
 #### fachlichkeit _und_ code wird von menschen maintained, die bei der entstehung nicht dabei waren
+### gemeinsames domain-wissen und ziel-architektur notwendig!
 ## management überzeugen
 ### TODO
 ## entwickler überzeugen
@@ -33,5 +34,8 @@
 ## poc, kleiner ausschnitt der context map (2-3 contexts) umsetzen
 ## strategie
 ### komplette neuentwicklung vs. schrittweise ablösung altsystem
-## pitfalls
-### zu gute context-beschreibungen -> management freut sich und versucht near-shoring
+
+# pitfalls
+## zu viele entwickler / zu wenige fachexperten im eventstorming
+## "modelieren wir jetzt das alt-system oder etwas neues?"
+## zu gute context-beschreibungen -> management freut sich und versucht near-shoring
