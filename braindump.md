@@ -32,6 +32,7 @@
 
 # umsetzung
 ## poc, kleiner ausschnitt der context map (2-3 contexts) umsetzen
+## core domain chart!
 ## strategie
 ### komplette neuentwicklung vs. schrittweise ablösung altsystem
 
