@@ -2,8 +2,14 @@
 ## warum ddd für legacy-modernisierung? 
 ### gewachsene software-systeme sind oft big ball of mud und (wenn überhaupt) technisch geschnitten
 * In den 00er-Jahren entstandene Software:
-  * Pflichtenheft, Lastenheft, Architekt im Elfenbeinturm, UML, Wasserfall,
+  * Pflichtenheft, Lastenheft, Architekt im Elfenbeinturm, UML, Wasserfall
   * technischer Schnitt (Server-Team, DB-Entwickler, Web-Team)
+* Schlechte Wartbarkeit:
+  * ...durch starren Entwicklungsprozess, der kaum Feedback zulässt
+  * ...durch technische System-Schnitte, da Features immer Änderungen in mehreren Schichten / Teams bedingen
+* Fachexperten und Entwickler wechseln, mehr und mehr Lösungen werden an der Architektur vorbei gebaut
+* Wartbarkeit nimmt weiter ab
+* Big Ball of Mud entsteht
 ### oftmals keine original-entwickler _und_ keine fachexperten mehr da
 #### fachlichkeit _und_ code wird von menschen maintained, die bei der entstehung nicht dabei waren
 ### gemeinsames domain-wissen und ziel-architektur notwendig!
