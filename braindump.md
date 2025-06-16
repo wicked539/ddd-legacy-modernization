@@ -1,6 +1,8 @@
 # motivation
 ## warum ddd für legacy-modernisierung? 
-### gewachsene software-systeme sind entweder big ball of mud oder technisch geschnitten
+### gewachsene software-systeme sind entweder big ball of mud und (wenn überhaupt) technisch geschnitten
+* In den 00er-Jahren entstandene Software:
+** Pflichtenheft, Lastenheft, Architekt im Elfenbeinturm, UML, Wasserfall, technischer Schnitt (Server-Team, DB-Entwickler, Web-Team)
 ### oftmals keine original-entwickler _und_ keine fachexperten mehr da
 #### fachlichkeit _und_ code wird von menschen maintained, die bei der entstehung nicht dabei waren
 ### gemeinsames domain-wissen und ziel-architektur notwendig!
