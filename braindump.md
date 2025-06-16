@@ -4,6 +4,7 @@
 * In den 00er-Jahren entstandene Software:
   * Pflichtenheft, Lastenheft, Architekt im Elfenbeinturm, UML, Wasserfall
   * technischer Schnitt (Server-Team, DB-Entwickler, Web-Team)
+  * Proprietäre Technologien, große Datenbanken (inkl. Logik), Vertikale Skalierung
 * Schlechte Wartbarkeit:
   * ...durch starren Entwicklungsprozess, der kaum Feedback zulässt
   * ...durch technische System-Schnitte, da Features immer Änderungen in mehreren Schichten / Teams bedingen
