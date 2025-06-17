@@ -27,8 +27,11 @@
 ### domain events
 ### duplicates
 ### enforcing the timeline
+* hotspots
+* definition von domain-objekten
 ## zweite session
 ### happy path
+* external systems
 ### pivotal events
 ## dritte session
 ### kandiaten für bounded contexts in kleingruppen schärfen
