@@ -2,7 +2,7 @@
 ## warum ddd für legacy-modernisierung? 
 ### gewachsene software-systeme sind oft big ball of mud und (wenn überhaupt) technisch geschnitten
 * In den 00er-Jahren entstandene Software:
-  * Pflichtenheft, Lastenheft, Architekt im Elfenbeinturm, UML, Wasserfall
+  * Lastenheft, Pflichtenheft, Architekt im Elfenbeinturm, UML, Wasserfall
   * technischer Schnitt (Server-Team, DB-Entwickler, Web-Team)
   * Proprietäre Technologien, große Datenbanken (inkl. Logik), Vertikale Skalierung
 * Schlechte Wartbarkeit:
