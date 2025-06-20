@@ -62,31 +62,59 @@
 * Super Sticky Post-Its (Viel Orange, Pink, Blau, Grün, ...)
 * Stabilo Pen 68 (schwarz)
 * Krepp-Band
-## erste session
-### domain events
-### duplicates
-### enforcing the timeline
-* hotspots
-* definition von domain-objekten
-## zweite session
-### happy path
-* external systems
-### pivotal events
-## dritte session
-### kandiaten für bounded contexts in kleingruppen schärfen
-### edge-cases integrieren
-## vierte session
-### context canvases ausfüllen
-### kommunikationsbeziehungen herausarbeiten
-## fünfte session
-### context map finalisieren
-### umsetzungsstrategie
+## Erste Session
+* Ankommen & kurze (!) Einführung in die Methode
+* Chaotic Exploration
+* Duplikate auflösen
+  * Vokabular festlegen
+  * Domain-Objekten definieren
+* Enforcing the timeline
+* Happy Path zuerst modelieren
+* Hotspots
+  * Am Ende der Session festlegen, wer das Thema zur Klärung mitnimmt 
+## Zweite session
+* Happy Path nochmals von Anfang bis Ende erzählen
+* External Systems
+* Commands & Actors
+* Pivotal Events
+* Kandidaten für Bounded Contexts
+  * Events aus dem Unhappy Path ebenfalls zuordnen!
+## Dritte Session
+* Kandidaten für Bounded Contexts in Kleingruppen schärfen
+* Edge-Cases integrieren
+* Kommunikationsbeziehungen zwischen Bounded Contexts betrachten
+* Context Canvases ausfüllen
+## Vierte Session
+* Context Canvases abschliessen
+  * Detaillierte Beschreibungen der einzelnen Bounded Contexts
+* Context Map finalisieren
+## Fünfte Session
+* Bei Bedarf: Restarbeiten vom Big Picture Event Storming
+* Umsetzungs-Strategie erarbeiten
 
-# umsetzung
-## poc, kleiner ausschnitt der context map (2-3 contexts) umsetzen
-## core domain chart!
-## strategie
-### komplette neuentwicklung vs. schrittweise ablösung altsystem
+# Umsetzung
+## Leitplanken
+* Grundlegende Architekturmuster
+* Technologie-Empfehlungen
+## Proof of Concept
+* Kleiner Ausschnitt der Context Map (2-3 Bounded Contexts) als PoC umsetzen
+* Nicht zu komplex, aber auch nicht trivial!
+## Umsetzungs-Strategie
+* Big-Bang-Neuentwicklung
+* Iterative Ablösung
+## Core Domain Chart
+* Bounded Contexts bewerten 
+* Roadmap für die Umsetzung
+  * Reihenfolge abhängig von Strategie:
+    * MVP für auslieferbares Gesamtsystem _oder_
+    * Risiko-Minimierung bei schrittweiser Ablösung
+## Iterative Ablösung
+* Anti-Corruption-Layer/Adapter-Ring um neue Services herum bauen
+* Frühzeitig und kontinuierlich in Produktion ausliefern
+## Team-Zusammenstellung / Skalierung
+* Empfehlung: 50% Entwickler aus Alt-System, 50% Experten für neuen Technik-Stack
+* Langsam skalieren, max. ein neues Team pro Quartal
+* Near-Shoring o.ä. vermeiden
 
 # pitfalls
 ## zu viele entwickler / zu wenige fachexperten im eventstorming
