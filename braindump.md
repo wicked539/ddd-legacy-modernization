@@ -1,3 +1,17 @@
+# Legacy-Modernisierung mit DDD und Event-Storming
+
+# Übersicht
+* Motivation
+  * Definition Legacy-Software
+  * Warum DDD?
+  * Stakeholder überzeugen
+* Big-Picture-Event-Storming
+  * Einführung Event-Storming
+  * Durchführung Workshops
+* Umsetzung
+  * Strategie
+  * Pitfalls
+
 # motivation
 ## warum ddd für legacy-modernisierung? 
 ### gewachsene software-systeme sind oft big ball of mud und (wenn überhaupt) technisch geschnitten
@@ -20,7 +34,18 @@
 ### TOOD
 
 # big picture event storming
-## einführung methode
+## Domain Driven Design
+* Fachlichkeit soll Treiber von Software-Design und Architektur sein
+* Create collaboration of software experts and domain experts
+* Domain-Driven Design is an approach to the development of complex software in which we:
+  * Focus on the core domain.
+  * Explore models in a creative collaboration of domain practitioners and software practitioners.
+  * Speak a ubiquitous language within an explicitly bounded context.
+## Event Storming
+* Leichtgewichtige Methode zum Modellieren von Geschäftsprozessen
+* Sehr inklusiv: Menschen aus allen Bereichen der Organisation können gemeinsam einen ersten Entwurf für die Architektur eines Software-Systems gestalten
+* Bonus: Auch sehr gut geeignet, um ein gemeinsames Verständnis der Abläufe in einem bestehenden System (oder auch Geschäftsprozess!) zu erarbeiten
+* Lebende Dokumentation, die nie fertig ist: muss agil und iterativ enstehen!
 ## vorbereitung
 ### zielgruppe motivieren, optimale personenanzahl, geeignete location
 ## erste session
