@@ -33,7 +33,7 @@
 ## entwickler überzeugen
 ### TOOD
 
-# big picture event storming
+# Big Picture Event Storming
 ## Domain Driven Design
 * Fachlichkeit soll Treiber von Software-Design und Architektur sein
 * Create collaboration of software experts and domain experts
@@ -46,8 +46,22 @@
 * Sehr inklusiv: Menschen aus allen Bereichen der Organisation können gemeinsam einen ersten Entwurf für die Architektur eines Software-Systems gestalten
 * Bonus: Auch sehr gut geeignet, um ein gemeinsames Verständnis der Abläufe in einem bestehenden System (oder auch Geschäftsprozess!) zu erarbeiten
 * Lebende Dokumentation, die nie fertig ist: muss agil und iterativ enstehen!
-## vorbereitung
-### zielgruppe motivieren, optimale personenanzahl, geeignete location
+## Vorbereitung Workshop-Serie
+### Teilnehmer
+* Optimal ca. 10-15 Personen
+* Idealerweise mindestens 50% Fachexperten!
+### Zeitplanung
+* 5 Halbtages-Sessions für große Software-Systeme
+* Mehrere Tage Pause zwischen den Sessions!
+* Möglichst alle Termine im Vorfeld planen
+### Location
+* Mindestens 5m, besser 10m breite Wand
+* Notfalls Whiteboards zusammenstellen
+### Material
+* Großem Rolle Plotterpapier als modeling canvas
+* Super Sticky Post-Its (Viel Orange, Pink, Blau, Grün, ...)
+* Stabilo Pen 68 (schwarz)
+* Krepp-Band
 ## erste session
 ### domain events
 ### duplicates
