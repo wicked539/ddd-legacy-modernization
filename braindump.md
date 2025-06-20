@@ -12,9 +12,9 @@
   * Strategie
   * Pitfalls
 
-# motivation
-## warum ddd für legacy-modernisierung? 
-### gewachsene software-systeme sind oft big ball of mud und (wenn überhaupt) technisch geschnitten
+# Motivation - Warum DDD für Legacy-Modernisierung?
+## Legacy-Software
+* Gewachsene Software-Systeme sind oft Big Balls of Mud und (wenn überhaupt) technisch geschnitten
 * In den 00er-Jahren entstandene Software:
   * Lastenheft, Pflichtenheft, Architekt im Elfenbeinturm, UML, Wasserfall
   * technischer Schnitt (Server-Team, DB-Entwickler, Web-Team)
@@ -25,14 +25,29 @@
 * Fachexperten und Entwickler wechseln, mehr und mehr Lösungen werden an der Architektur vorbei gebaut
 * Wartbarkeit nimmt weiter ab
 * Big Ball of Mud entsteht
-### oftmals keine original-entwickler _und_ keine fachexperten mehr da
-#### fachlichkeit _und_ code wird von menschen maintained, die bei der entstehung nicht dabei waren
-### gemeinsames domain-wissen und ziel-architektur notwendig!
-## management überzeugen
-### TODO
-## entwickler überzeugen
-### TOOD
-
+## Fazit
+* Oftmals keine Original-Entwickler _und_ keine Fachexperten mehr da
+  * Fachlichkeit _und_ Code wird von Menschen maintained, die bei der Entstehung nicht dabei waren
+* Gemeinsames Domain-Wissen und Ziel-Architektur notwendig!
+## Management überzeugen
+* Weniger Wartungsaufwand
+* Schnellere Feature-Entwicklung
+* Moderner Technik-Stack besser verkäuflich
+* Klare Domänen-Schnitte ermöglichen...
+  * fundierte Make-or-Buy-Entscheidungen
+  * gezielten Resourcen-Einsatz am Kern der Wertschöpfungskette
+## Entwickler überzeugen
+* Technische Schulden abbauen
+* Legacy-Tech-Stack loswerden
+* Kollaboratives Software-Design sorgt für...
+  * _unfassbar viel_ mehr Spaß, Software zu entwickeln, wenn Entwicklung und Fachbereich das gleiche Verständis von der Domain haben
+  * keinen Frust beim rumwursteln in Alt-Code, den keiner kapiert
+## Fachexperten überzeugen
+* Herausfordernd, aber essentiel
+* Fachexperten lernen...
+  * wie moderne Software-Entwicklung funkiontiert
+  * wie sie unmittelbar Einfluss auf das entstehende Software-System nehmen können
+ 
 # Big Picture Event Storming
 ## Domain Driven Design
 * Fachlichkeit soll Treiber von Software-Design und Architektur sein
