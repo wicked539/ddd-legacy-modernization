@@ -25,7 +25,7 @@
 * Fachexperten und Entwickler wechseln, mehr und mehr Lösungen werden an der Architektur vorbei gebaut
 * Wartbarkeit nimmt weiter ab
 * Big Ball of Mud entsteht
-## Fazit
+## Warum DDD?
 * Oftmals keine Original-Entwickler _und_ keine Fachexperten mehr da
   * Fachlichkeit _und_ Code wird von Menschen maintained, die bei der Entstehung nicht dabei waren
 * Gemeinsames Domain-Wissen und Ziel-Architektur notwendig!
