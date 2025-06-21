@@ -129,9 +129,17 @@
 ## Team-Zusammenstellung / Skalierung
 * Empfehlung: 50% Entwickler aus Alt-System, 50% Experten für neuen Technik-Stack
 * Langsam skalieren, max. ein neues Team pro Quartal
-* Near-Shoring o.ä. vermeiden
+* Outsourcing (mindestens von Core Domain) vermeiden
 
-# pitfalls
-## zu viele entwickler / zu wenige fachexperten im eventstorming
-## "modelieren wir jetzt das alt-system oder etwas neues?"
-## zu gute context-beschreibungen -> management freut sich und versucht near-shoring
+# Pitfalls
+## Zu viele Entwickler / zu wenige Fachexperten im Event-Storming
+* "Internen Projektleiter" finden, der gut in der Organisation vernetzt ist
+* 1-2 Fachexperten können ausreichen, wenn sie als Multiplikator agieren
+## "Modellieren wir jetzt das Alt-System oder etwas Neues?"
+* Wir modellieren zunächst (noch) garkein System, sondern erschaffen ein gemeinsames Verständnis für unsere Geschäftsprozesse!
+* Möglichst von Technik lösen
+## Outsourcing
+* Saubere Bounded Context-Beschreibungen können Manager verleiten, diese als komplette Arbeitspakete extern zu vergeben
+* Standard-Software für Generic Domain ist völlig in Ordnung
+* Wenn externe Entwicklungs-Teams eingesetzt werden: Zusammenarbeit an Supporting Domain erproben
+* Zur Not: Laufen lassen. Wahrscheinlich merkt das Management nach ein paar Monaten, dass die Idee nicht besonders gut war.
