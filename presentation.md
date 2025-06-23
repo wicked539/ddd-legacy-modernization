@@ -111,6 +111,9 @@
 ## Leitplanken
 * Grundlegende Architekturmuster
 * Technologie-Empfehlungen
+* Design-Level-Event-Storming-Sessions für Software-Design einzelner Bounded Contexts
+  * Ein halber Tag reicht in der Regel aus
+* Architecture Decision Records
 ## Proof of Concept
 * Kleiner Ausschnitt der Context Map (2-3 Bounded Contexts) als PoC umsetzen
 * Nicht zu komplex, aber auch nicht trivial!
